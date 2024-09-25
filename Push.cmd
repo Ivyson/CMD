@@ -10,6 +10,12 @@ if not exist .git (
     exit /b 1
 )
 
+REM Stage all changes
+git add .
+
+REM Commit the changes
+git commit -m "Automated commit"
+
 REM Fetch the latest updates from the remote repository
 git fetch origin
 
