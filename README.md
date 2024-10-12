@@ -17,8 +17,7 @@ Thus, the sampled values of \( t \) are:
 
 Given \( x(t) = 5 \cos(8 \pi t) \), we can compute the sampled values as follows:
 
-\[
-\begin{align*}
+\[\begin{align*}
 x(0) &= 5 \cos(8 \pi \cdot 0) = 5 \\
 x(0.05) &= 5 \cos(8 \pi \cdot 0.05) = 5 \cos(0.4 \pi) = 5 (-1) = -5 \\
 x(0.1) &= 5 \cos(8 \pi \cdot 0.1) = 5 \cos(0.8 \pi) = 5 (1) = 5 \\
@@ -27,8 +26,7 @@ x(0.2) &= 5 \cos(8 \pi \cdot 0.2) = 5 \cos(1.6 \pi) = 5 (1) = 5 \\
 x(0.25) &= 5 \cos(8 \pi \cdot 0.25) = 5 \cos(2 \pi) = 5 (1) = 5 \\
 x(0.3) &= 5 \cos(8 \pi \cdot 0.3) = 5 \cos(2.4 \pi) = 5 (-1) = -5 \\
 x(0.35) &= 5 \cos(8 \pi \cdot 0.35) = 5 \cos(2.8 \pi) = 5 (1) = 5 
-\end{align*}
-\]
+\end{align*}\]
 
 Therefore, the sampled signal \( x[n] \) is:
 
